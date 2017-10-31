@@ -1,0 +1,130 @@
+/*01 **general***/
+
+body {
+    color: #e6bc7b;
+    font-family: 'Cardo', serif;
+    font-weight: 200;
+    font-size: 17px;
+    letter-spacing: 0.1px;
+    background-image: url(entry-page-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+}
+
+/*ENTRY PAGE CONTENT*/
+
+.entry-page-content {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    /*background-image: url(entry-page-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    /*background-position: 50% 60%;*/
+    text-align:center;
+
+
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease; 
+}
+
+.entry-page-logo {
+    width: 570px;
+    height: 400px;
+    display: inline-block;
+    background-image: url(entry-page-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top:50px;
+}
+
+.entry-header {
+    font-size:72px;
+    color: #fff;
+    font-family: "ltc-bodoni-175";
+    font-size: 72px;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: -.01em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 15px;
+    text-shadow: -3px 2px black;
+}
+
+.entry-sub-header {
+    font-family: "futura-pt";
+    font-size: 25px;
+    line-height: 1.4em;
+    text-transform: none;
+    letter-spacing: .04em;
+    font-weight: 400;
+    color: #fff;
+    font-style: italic;
+    margin-top:20px;
+    text-shadow: -3px 2px black;
+}
+
+.entry-unordered-list {
+    margin-top: 20px;
+    text-shadow: -3px 2px black;
+}
+
+li {
+    font-family: "garamond-premier-pro-display";
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-weight: 400;
+    font-style: normal;
+    display: inline;
+    color: #fff;
+    padding-left: .6em;
+    padding-right: .6em;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    text-shadow: -2px 1px black;
+}
+
+a {
+    color:#fff;
+}
+
+a:hover {
+    color:#fff;
+}
+
+/*ENTRY PAGE CONTENT ENDS*/
+
+
+/*MEDIA QUERY*/
+
+
+
+@media screen and (max-width: 767px) {
+
+    .entry-page-logo {
+        width:70%;
+        min-width: 300px;
+        height:370px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    
+    .entry-header {
+        margin-top:-15px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .entry-header {
+        margin-top:-90px;
+        font-size: 42px;
+    }
+}
